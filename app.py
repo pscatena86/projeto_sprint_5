@@ -6,7 +6,7 @@ car_data = pd.read_csv('vehicles.csv')
 st.header('Dashboard de Vendas de Carros')
 hist_button = st.button('Criar histograma') # criar um botão
 
-if st.hist_button:
+if hist_button:
   st.write('Criando um histograma para o conjunto de dados de anúncios de vendas de carros') # se o botão for clicado, escrever uma mensagem
   
   # criar um histograma
